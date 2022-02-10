@@ -1,0 +1,15 @@
+#write a program to print result of the given student
+#pass or fail.
+sno=int(input("Enter the student no : "))
+sname =input("Enter the student name : ")
+sgroup= input("Enter the student group : ")
+s1=int(input("Enter the AFM marks :"))  
+s2=int(input("Enter the JAVA marks :"))
+s3=int(input("Enter the OS marks :"))
+s4=int(input("Enter the ENGLISH marks :"))
+s5=int(input("Enter the TELUGU marks :"))
+s6=int(input("Enter the ENVIRONMENT EDUCATION marks :"))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35and s6>=35:
+    print("pass") 
+else:
+    print("fail") 
